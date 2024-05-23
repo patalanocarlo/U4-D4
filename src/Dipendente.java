@@ -26,12 +26,12 @@ public abstract class Dipendente implements Check {
         this.dipartimento = dipartimento;
     }
 
-    // Metodo astratto per calcolare lo stipendio
+    // Creo un metodo abstarc per lo stipendio.
     public abstract double calcolaStipendio();
 
     @Override
     public void checkIn(){
-        System.out.println("Il dipendente con la matricola:" + matricola + "ha iniziato il suo turno ");
+        System.out.println("Il dipendente con la matricola:"+ " " + matricola + " " + "ha iniziato il suo turno ");
     }
 }
 

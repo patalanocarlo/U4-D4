@@ -9,15 +9,7 @@ public class Volontario implements Check {
         this.CV=CV;
         this.Orario=Orario;
     }
-    public String getNome(){
-return nome;
-    }
-public int getEtà(){
-        return età;
-}
-public String getCV(){
-        return CV;
-}
+
 public void checkIn(){
     System.out.println("Il volontario :" + " " + nome + " " + "ha iniziato il suo turno alle ore:" + " " + Orario);
 }

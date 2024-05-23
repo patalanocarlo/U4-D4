@@ -6,7 +6,7 @@ super(matricola ,stipendio ,dipartimento);
 this.oreLavorate=oreLavorate;
 this.pagaOraria=pagaOraria;
     }
-    @Override
+
     public double calcolaStipendio(){
         return oreLavorate * pagaOraria;
     }

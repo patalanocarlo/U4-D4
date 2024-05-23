@@ -7,7 +7,7 @@ public class DipendenteFullTime extends Dipendente {
         this.pagaOraria=pagaOraria;
     }
 
-    @Override
+
     public double calcolaStipendio() {
         return oreLavorate * pagaOraria;
     }
